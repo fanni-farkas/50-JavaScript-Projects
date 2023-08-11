@@ -5,16 +5,69 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link
       rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
-      integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.14.0/css/all.min.css"
+      integrity="sha512-1PKOgIY59xJ8Co8+NE6FZ+LOAZKjy+KY8iq0G4B3CyeY6wYHN3yt9PW0XpSriVlkMXe40PTKnXrLnZ9+fkDaog=="
       crossorigin="anonymous"
-      referrerpolicy="no-referrer"
     />
     <link rel="stylesheet" href="styles.css" />
-    <title>My Project</title>
+    <title>Rotating Navigation</title>
     <script defer src="script.js"></script>
   </head>
   <body>
-    <h1>Project Starter</h1>
+    <div class="container">
+      <div class="circle-container">
+        <div class="circle">
+          <button id="close">
+            <i class="fas fa-times"></i>
+          </button>
+          <button id="open">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+      <div class="content">
+        <h1>Amazing Article</h1>
+        <small>Florin Pop</small>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum quas
+          ullam debitis reiciendis, exercitationem qui amet ea sapiente iusto
+          beatae suscipit labore odit ipsa adipisci expedita quidem cupiditate?
+          Accusamus, eius a nemo ab porro adipisci tempore molestiae autem
+          veritatis maxime deserunt laudantium omnis aspernatur. Similique
+          facilis facere cum minima asperiores accusantium sed temporibus
+          dolorum doloribus ducimus sunt optio praesentium sit ut nostrum
+          consectetur esse, repellat beatae ipsa laborum qui provident quisquam
+          corporis. Sint, libero. Molestiae, incidunt. Mollitia pariatur error,
+          sunt nam eveniet maxime enim maiores. Eum illo ipsum at aliquid,
+          laboriosam velit iste voluptates asperiores. Quod facilis dolores
+          consectetur harum.
+        </p>
+
+        <h3>My Dog</h3>
+        <img
+          src="https://images.unsplash.com/photo-1622435242389-8f6561672b23?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1974&q=80"
+          alt="dog picture"
+        />
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab
+          consequatur, nesciunt eligendi impedit, asperiores, quasi explicabo
+          enim eaque alias harum molestiae esse totam? Placeat nostrum fuga
+          consectetur ipsam quod. Aperiam, quis. Accusantium dolorem voluptates,
+          quis quibusdam non nemo? Facilis eos omnis deleniti consequuntur
+          repudiandae accusantium pariatur tenetur voluptates fuga culpa
+          suscipit praesentium, quos tempora iure, consequatur reprehenderit.
+          Quibusdam asperiores a ut necessitatibus officia! Non doloribus dicta
+          totam vitae explicabo nisi quae ducimus iste perspiciatis. Deleniti?
+        </p>
+      </div>
+    </div>
+
+    <nav>
+      <ul>
+        <li><i class="fas fa-home"></i> Home</li>
+        <li><i class="fas fa-user-alt"></i> About</li>
+        <li><i class="fas fa-envelope"></i> Contact</li>
+      </ul>
+    </nav>
   </body>
 </html>
